@@ -25,17 +25,5 @@
   "devDependencies": {
     "eslint": "^8.3.0",
     "nodemon": "^2.0.15"
-  },
-  "nodemonConfig": {
-    "restartable": "rs",
-    "ignore": [
-      "node_modules/**/node_modules"
-    ],
-    "delay": "2500",
-    "env": {
-      "NODE_ENV": "development",
-      "PORT": 5000
-    }
-
   }
 }
